@@ -1,0 +1,17 @@
+{
+    "jenkins-runner.jobs": {
+        "PipelineApp": {
+            "isDefault": true,
+            "runWith": "localhost",
+            "name": "Pipeline_Test"
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "localhost": {
+            "url": "http://localhost:8080",
+            "user": "admin",
+            "password": "admin",
+            "useCrumbIssuer": true
+        }
+    }
+}
